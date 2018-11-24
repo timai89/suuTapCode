@@ -1,0 +1,14 @@
+//		String confirmCode = "Your confirmation code is: JJcSsnNwdEmHN/ncJsOSAA==. Visit ";
+//		String confirm = "Your confirmation code is: JJcSsnNwdEmHN/ncJsOSAA==. Visit ";
+//		String code = "JJcSsnNwdEmHN/ncJsOSAA==";
+	
+//		StringTokenizer st = new StringTokenizer(confirmCode, " ");
+//		String pattern = "(\\w{13}\\/\\w{8})";
+
+//		System.out.println("Day la confirm code: " +confirmCode.substring(27, 48));
+//		String finalCode = confirmCode.substring(27, 48);
+//		System.out.println(finalCode);
+		
+		String confirm = "Your confirmation code is: JJcSsnNwdEmHN/ncJsOSAA==. Visit ";
+		String arr1 = confirm.split(":")[1].split(" ")[1].split("=")[0];
+		System.out.println(arr1);
